@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace week3day1
+namespace week3day1  //intro to OOP
 {
-    class Cat
+    class Cat  
     {
         //STATES
         //two types of states:: 
