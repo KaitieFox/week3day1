@@ -12,12 +12,12 @@ namespace week3day1  //intro to OOP
         private string furLength;
         private float height;
         private string runningSpeed;
-        private int weight;
+        private double weight;
 
         //Properties
         public string FurLength
         {
-            get { return this.furLength;  }
+            get { return this.furLength; }
             set { this.furLength = value; }
         }
 
@@ -33,7 +33,7 @@ namespace week3day1  //intro to OOP
             set { this.runningSpeed = value; }
         }
 
-        public int Weight
+        public double Weight
         {
             get { return this.weight; }
             set { this.weight = value; }
@@ -57,13 +57,29 @@ namespace week3day1  //intro to OOP
         }
 
 
+        //Methods
 
+        public void Run()
+        {
+            runningSpeed = "getting faster.";
+            weight--;
+        }
 
+        public void Bark()
+        {
+            Console.WriteLine("\a");
+        }
 
+        public void Potty()
+        {
+            weight -= 0.1;
+        }
+
+        public void Groom()
+        {
+            furLength = "all cleaned up.";
+        }        
         
-
-
-
     }
 
 
